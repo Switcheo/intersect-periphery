@@ -83,7 +83,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aave/aave-v3-periphery"
+    "url": "git://github.com/Switcheo/intersect-periphery"
   },
   "dependencies": {
     "@aave/core-v3": "1.19.3"
