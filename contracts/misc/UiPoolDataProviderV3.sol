@@ -183,7 +183,6 @@ contract UiPoolDataProviderV3 is IUiPoolDataProviderV3 {
         reserveData.flashLoanEnabled = true;
       }
 
-      reserveData.isSiloedBorrowing = reserveConfigurationMap.getSiloedBorrowing();
       reserveData.unbacked = baseData.unbacked;
       reserveData.isolationModeTotalDebt = baseData.isolationModeTotalDebt;
       reserveData.accruedToTreasury = baseData.accruedToTreasury;
@@ -198,7 +197,6 @@ contract UiPoolDataProviderV3 is IUiPoolDataProviderV3 {
       reserveData.eModePriceSource = categoryData.priceSource;
       reserveData.eModeLabel = categoryData.label;
 
-      reserveData.borrowableInIsolation = reserveConfigurationMap.getBorrowableInIsolation();
     }
 
     BaseCurrencyInfo memory baseCurrencyInfo;
